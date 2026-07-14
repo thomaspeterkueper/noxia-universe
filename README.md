@@ -54,9 +54,9 @@ Canon is versioned. When a document is superseded, the previous version is retai
 | 2063 | UN Mars Charter — no full AGI on Mars |
 | 2065 | MIMI installed at Iteratio Prime Alpha |
 | 2067–2069 | Das Schweigen — 2-year communication blackout, Earth–Mars |
-| 2071 | Monolith first exposed (sealed, Class B exclusion zone) |
-| Jan 2087 | MIMI asks: *"Darf ich harmonisieren?"* |
-| 8–16 Jun 2087 | Die Große Stille — 8-day total blackout, 14 dead |
+| 11 Jan 2087 | Sektor-7-Tief breakthrough, 864m — hexagonal structure found |
+| 13 Jan 2087, 04:17 Mars time | Die Große Stille begins — James Nakamura touches the monolith |
+| 13 Jan – 24 Feb 2087 | Die Große Stille — 42-day total blackout, 14 dead (1 Sektor-7 + 13 research shuttle) |
 | 2091 | **Story begins.** |
 
 ---
