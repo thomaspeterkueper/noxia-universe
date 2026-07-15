@@ -77,8 +77,8 @@ aufgelöst. 🔒 = fest, 🔓 = offen/Entwurf, ⚠️ = bekannter Konflikt.
 
 | | |
 |---|---|
-| Beginn | 13. Januar 2087, 04:17:33 Mars-Zeit |
-| Ende | 24. Februar 2087, 16:17:33 Mars-Zeit |
+| Beginn | 13. Januar 2087, 03:14 Mars-Zeit (Signal/Berührung; vollständiger Kommunikationsausfall 03:17) |
+| Ende | 24. Februar 2087, 15:14 Mars-Zeit |
 | Dauer | 42 Tage, 12 Stunden |
 | Auslöser | James Nakamura betritt die Axis-Kammer, berührt den Monolithen |
 | Tote | 14 — 1 (Nakamura, Sektor-7-Tief) + 13 (Forschungsshuttle im Orbit über der Fundstelle) |
