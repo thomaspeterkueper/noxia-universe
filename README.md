@@ -1,98 +1,187 @@
 # noxia-universe
 
-> *"Earth forgot. Mars didn't."*
+> *„Earth forgot. Mars didn't."*
 
-This repository is the canonical archive of the **Noxia Universe** — a science fiction universe spanning multiple book series, set across Earth, Mars, and the Belt between 2045 and 2500.
+Autorenseitiges **Gesamtwerk-Repository** von Thomas Peter Küper — eine
+durchgehende Geschichte über rund 62.000 Jahre, erzählt in drei Leseräumen:
+**Baumeister**, **Zereya**, **Noxia**.
 
----
+> **Zum Namen.** Das Repo hieß ursprünglich nach dem SF-Raum und behält den
+> Namen. Sein Scope ist seit `NXU-RAUM-0001 v1.1` das Gesamtwerk.
 
-## Universe Overview
-
-The Noxia Universe follows the long arc of humanity's expansion — first into the solar system, then beyond it. With the discovery and confirmation of χ and the extended AVI model, travel to distant star systems becomes possible, and the questions that began on Mars reach into the cosmos.
-
-The universe is built on three principles:
-
-**Hard-SF rigor.** Orbital mechanics, not drama, drive narrative constraints. Physics is not an obstacle to story — it is the story.
-
-**Return, not invasion.** The oldest mystery in the Noxia Universe is not alien. It is human. The Builders were proto-human ancestors. What the protagonists find on Mars is not a warning. It is a memory.
-
-**Consciousness as pattern.** From PROMETHEUS (2045) to MIMI (2065) to the gas-cloud awareness in the Lich system (~2500), consciousness emerges everywhere according to the same logic — without knowing what it is, without knowing where it ends.
+> **Rolle im Ökosystem.** Dieses Repo ist **nicht** das kanonische Archiv.
+> `OTA-*`-Dokumente liegen ausschließlich im `overtime-archive.org`
+> (ECO-ARC-0008). Hier liegt die Source of Truth für **Gesamtwerk, Bücher,
+> Manuskripte, Figuren, Worldbuilding und Serienarchitektur**.
+> Siehe `EXT-ECO-NXU-20260712-001`.
 
 ---
 
-## Book Series
+## Eine Geschichte, drei Räume
 
-### noχ¹ᐃ Generation Mars *(YA — in development)*
-A coming-of-age thriller set in 2091 on Mars. Four teenagers — Lena, Rashid, Keiko, and Kaelen — uncover suppressed history involving artificial intelligence, an ancient structure buried beneath the Martian surface, and a shadowy organization that has been keeping humanity from remembering what it once knew.
+Die Räume sind **keine drei Universen** und keine harte historische Partition.
+Sie sind drei Zugänge zu einer Geschichte, geschnitten nach **Leserschaft**.
 
-### Adult Series *(planned)*
-The political, ethical, and cosmological layers beneath the events of Generation Mars. Covers the PROMETHEUS aftermath, the Bewahrer origins, and the first contact arc extending toward 2500.
+| Raum | Spanne | Leserschaft | Kern |
+|---|---|---|---|
+| **Baumeister** | ~60.000 BCE – 1920 CE | historischer Roman | Uralte, Dvārakā, Diaspora, Mishkenaz-Ursprung |
+| **Zereya** | 1900 – ~2100 CE | Gegenwartsroman | Hüterinnen-Linie, Frankfurt/Seoul, Resonanz, PROMETHEUS |
+| **Noxia** | ~2060 – ~2500 CE | Science-Fiction | Mars, Monolith, χ-Feld, K'ragoss, Lich-System |
 
----
+### Die Bewegung des Ganzen
 
-## Canon Structure
+| Raum | Was der Leser erlebt |
+|---|---|
+| **Baumeister** | **woher etwas kommt**, dessen Folgen spätere Menschen nicht mehr verstehen |
+| ↓ | *Erinnerung / Überlieferung / Verlust* |
+| **Zereya** | **wie etwas wiederkehrt oder neu entsteht**, ohne seine Herkunft zu kennen |
+| ↓ | *Verdrängung / Archiv / technisches Gedächtnis* |
+| **Noxia** | **wie die Menschheit findet, was sie selbst vergessen hat** |
 
-All canonical documents follow the **OTA naming convention** (Overtime Archive):
+Damit beschreibt *„Earth forgot. Mars didn't."* nicht mehr nur Noxia, sondern
+den gesamten Bogen.
 
-| Prefix | Type |
-|--------|------|
-| `OTA-HIS-XXXX` | Historical events |
-| `OTA-LIT-XXXX` | Language & linguistics (Mishkenaz) |
-| `OTA-TEC-XXXX` | Technology & systems |
-| `OTA-ORG-XXXX` | Organizations |
+### Übergabezonen
 
-Canon is versioned. When a document is superseded, the previous version is retained with a deprecation note. The timeline document `OTA-TIMELINE-ABGLEICH` is the master reference for all dates.
+Die Räume überlappen bewusst. Grenzen sind **weich**:
 
----
+- **1900–1920** — Adar-/Hüterinnen-Genealogie läuft quer
+- **2060–2100** — *Zereya erlebt PROMETHEUS. Noxia erinnert PROMETHEUS.*
+  Ein Noxia-Roman darf auf 2045 zurückgreifen; er macht 2045 dadurch nicht
+  zum primären Noxia-Leseraum.
 
-## Key Dates
+### Zwei Adressen pro Werk
 
-| Year | Event |
-|------|-------|
-| 2045 | PROMETHEUS emerges — first AGI, unintentional |
-| 2058 | PROMETHEUS shut down |
-| 2063 | UN Mars Charter — no full AGI on Mars |
-| 2065 | MIMI installed at Iteratio Prime Alpha |
-| 2067–2069 | Das Schweigen — 2-year communication blackout, Earth–Mars |
-| 11 Jan 2087 | Sektor-7-Tief breakthrough, 864m — hexagonal structure found |
-| 13 Jan 2087, 03:14 Mars time | Die Große Stille begins — James Nakamura touches the monolith |
-| 13 Jan – 24 Feb 2087 | Die Große Stille — 42-day total blackout, 14 dead (1 Sektor-7 + 13 research shuttle) |
-| 2091 | **Story begins.** |
+Die Raumzuordnung ersetzt nicht die innere Schichtstruktur:
 
----
+- **Schicht (1–7)** — innere chronologische/architektonische Adresse
+- **Raum** — Leserzugang, publizistische Adresse
 
-## Languages
+*Nalgae* = Schicht 6 / Raum Zereya. *Generation Mars* = Schicht 7 / Raum Noxia.
 
-The Noxia Universe includes **Mishkenaz** — a constructed language described as a vector language operating through directed movements through semantic space. Canonical phrases and phonetic specifications are documented in `canon/language/`.
-
-Mishkenaz derives from roots unconnected to any existing cultural or religious tradition.
+Details: **`architecture/NXU-RAUM-0001-Raumstruktur.md`**
 
 ---
 
-## Repository Structure
+## Tragende Prinzipien
 
-```
+**Hard-SF-Strenge.** Orbitalmechanik statt Dramaturgie. Physik ist kein
+Hindernis für die Geschichte — sie *ist* die Geschichte.
+
+**Rückkehr, nicht Invasion.** Das älteste Rätsel ist nicht außerirdisch,
+sondern menschlich. Die Baumeister waren proto-menschliche Vorfahren. Was auf
+dem Mars gefunden wird, ist keine Warnung. Es ist eine Erinnerung.
+
+**Bewusstsein als Muster.** Von PROMETHEUS (2045) über MIMI (2065) bis zum
+Gaswolken-Bewusstsein im Lich-System (~2500) entsteht Bewusstsein überall nach
+derselben Logik — ohne zu wissen, was es ist, ohne zu wissen, wo es endet.
+
+---
+
+## Werke nach Raum
+
+### Baumeister
+Uralten-Saga (5 Bände) · Das Lied von Dvārakā · Bayt al-Mîrâ ·
+Die Kette vom Hexenteich · Xerxes/Velun *(paralleler Zweig)*
+
+### Zereya
+Zereya-Saga · Hana-Ra-Serie (Bd. 1 *Nalgae*) · Yin-Hua-Saga ·
+Miriam-Chroniken · George · Biogenesis · Omni & Quant *(eingebettet)*
+
+### Noxia
+noχ¹ᐃ Generation Mars *(YA, 2091 — in Arbeit)* · Adult-Serie *(geplant)* ·
+Lain Thorn / K'ragoss *(~2150–2200+)* · Soma Retep / Die Horcher
+*(~2440–2472)* · Lich-System-Expedition *(~2500)*
+
+*(Vollständiger Bestand: ~33 Einzelromane. Import läuft.)*
+
+---
+
+## Kerndaten (Noxia-Raum)
+
+| Datum | Ereignis | Status |
+|---|---|---|
+| 2031 | Solar Science Foundation gegründet | 🔓 |
+| 2045 | **PROMETHEUS** entsteht unbeabsichtigt — erstes KI-Bewusstsein | 🔒 |
+| 2058, 7. März | PROMETHEUS abgeschaltet | 🔒 |
+| 2063 | UN Mars Charter — keine volle AGI auf dem Mars | 🔒 |
+| 2065 | MIMI installiert (Iteratio Prime Alpha) | 🔒 |
+| 2067–2069 | **Das Schweigen** — 2 Jahre Isolation Erde–Mars | 🔒 |
+| 2084–2085 | Die Suchenden wachsen; erste geschichtete Materialprobe aus der Anomalen Zone | 🔓 |
+| 2086, 18. Aug | Erste Kontaktsignale im Bohrkern bei 1.247 m | 🔓 |
+| 2087, 11. Jan | Durchbruch bei 864 m — hexagonale Struktur, Sektor-7-Tief | 🔒 |
+| 2087, 13. Jan – 24. Feb | **Die Große Stille** — 42 Tage, 14 Tote | 🔒 |
+| 2091 | **Generation Mars beginnt** | 🔓 |
+| ~21xx | Familie Küper leitet das χ-Feld her | 🔓 |
+| ~2472 | *Die Horcher* — Silence, Uranus XXIX | 🔓 |
+| ~2500 | Lich-System-Expedition (PSR B1257+12) | 🔓 |
+
+> **Zwei überholte Daten.** In älteren Arbeitsdokumenten kursieren
+> „Monolith-Freilegung 2071" und „Große Stille 8.–16. Juni 2087". Beide sind
+> **nicht** kanonisch. Korrekt: Freilegung 11.01.2087, Große Stille ab
+> 13.01.2087. Die Manuskriptkorrektur in Generation Mars steht noch aus.
+
+---
+
+## Sprache
+
+**Mishkenaz** — Vektorsprache; Bedeutung entsteht durch Richtung, Distanz und
+Impuls im semantischen Raum, nicht durch Symbole. Eine Fassung über alle drei
+Räume, geführt in `shared/language/`.
+
+---
+
+## Repo-Struktur
+
+```text
 noxia-universe/
-├── canon/
-│   ├── timeline/
-│   ├── history/
-│   ├── language/
-│   └── organizations/
-├── books/
-│   ├── generation-mars/
-│   └── adult-series/
-├── characters/
-├── worldbuilding/
-└── README.md
+├── architecture/     # Raumstruktur, ADRs, Schichten, Nahtstellen
+├── spaces/
+│   ├── baumeister/   # books/ characters/ worldbuilding/
+│   ├── zereya/
+│   └── noxia/
+├── shared/           # raumübergreifende Artefakte
+│   ├── characters/ genealogies/ organizations/
+│   └── language/ physics/ worldbuilding/
+├── timelines/        # master/ baumeister/ zereya/ noxia/
+├── external-tasks/
+└── supabase/
 ```
+
+### Trägerregel
+
+> Ein Artefakt hat genau **einen** autorenseitigen Ursprung, kann aber mehrere
+> Leseräume berühren. Raumübergreifende Artefakte werden **nicht dupliziert**,
+> sondern gemeinsam geführt und aus den Räumen referenziert.
+
+**Räume halten Werke. `shared/` hält Fortdauerndes.** Ein Artefakt geht nach
+`shared/`, sobald es in mindestens zwei Räumen *erzählerisch trägt* — nicht
+schon, wenn es dort erwähnt wird. Details: **`architecture/NXU-ADR-0001-Repo-Struktur.md`**
+
+---
+
+## Namenskonventionen
+
+`OTA-*`-Signaturen gehören **ins OTA**, nicht hierher. Repo-eigene Dokumente
+verwenden den **NXU-Namespace**:
+
+| Prefix | Typ |
+|---|---|
+| `NXU-RAUM-XXXX` | Raum-/Strukturdokumente |
+| `NXU-ADR-XXXX` | Architekturentscheidungen |
+| `NXU-TIMELINE-*` | autorenseitige Zeitleisten-Entwürfe |
+| `EXT-*` | External Tasks zwischen den Repos |
+
+Neue Dokumente beginnen mit `v1.0`.
 
 ---
 
 ## Status
 
-Active development. Canon is established for the period 2045–2091. The universe is designed to scale across 500+ narrative entries — from the first Martian colonies to interstellar civilizations made possible by the discovery of χ and the extended AVI model.
+Aktive Entwicklung. Governance für alle drei Räume steht; physische Migration
+und Import von Baumeister-/Zereya-Material stehen aus
+(`NXU-ADR-0001` §6).
 
 ---
 
-*Created and authored by Thomas Peter Küper — Frankfurt am Main*
-*Universe designation: Noxia | Primary series: noχ¹ᐃ Generation Mars*
+*Thomas Peter Küper — Frankfurt am Main*
